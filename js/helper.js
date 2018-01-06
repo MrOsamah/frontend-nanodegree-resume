@@ -21,7 +21,7 @@ var HTMLgithub = '<li class="contact-list"><i class="fab fa-github"></i><a href=
 var HTMLblog = '<li class="contact-list"><i class="fab fa-wordpress"></i><a href="%data%" class="contact-link text-white" target="_blank">Blog</a></li>';
 var HTMLlocation = '<li class="contact-list"><span class="orange-text">location</span><span class="text-white">%data%</span></li>';
 
-var HTMLbioPic = '<img src="%data%" class="biopic">';
+var HTMLbioPic = '<img src="%data%" class="biopic img-fluid">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLskillsStart = '<h3 class="subtitle-text grey-text">Skills at a Glance:</h3><ul id="skills"></ul>';

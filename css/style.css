@@ -73,6 +73,10 @@ a {
     margin: 10px 0 0 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .welcome-message {
     font-size: 18px;
     color: #f3f3f3;
@@ -136,7 +140,7 @@ img {
     padding: 10px;
 }
 
-#footerContacts {
+#footerContacts, #topContacts {
     margin-bottom: 0;
     padding-bottom: .5em;
 }
@@ -153,20 +157,23 @@ img {
     };
 }
 
-@media only screen and (max-width:900px) {
-    .biopic {
-        width: 175px;
-    };
+@media only screen and (max-width:953px) {
+    .contact-list {
+        padding: 1em;
+    }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 805px) {
     * {
         text-align: center;
     }
 
     .contact-list {
-        display: block;
-        padding: .1em;
+        padding: .5em;
+    }
+
+    #header {
+      display: block;
     }
 
     .biopic, .date-text, .location-text {
@@ -191,19 +198,20 @@ img {
     margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 750px) {
-    #skills-h3,
-  .biopic {
-        display: block;
-    };
+@media only screen and (max-width: 711px) {
+  .contact-list {
+    padding: .2em
+  }
+
+  .welcome-message {
+      display: none;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .welcome-message {
-        display: none;
-    }
 
-    .skills-list {
-        margin: auto;
-    };
+
+    .contact-list {
+      display: block;
+    }
 }
